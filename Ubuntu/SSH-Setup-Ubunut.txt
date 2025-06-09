@@ -1,0 +1,13 @@
+Step 1: Install SSH Server on Ubuntu
+On your Ubuntu VM terminal, run:
+
+     sudo apt update
+     sudo apt install openssh-server
+
+Check SSH service status:
+     sudo systemctl status ssh
+
+If it's inactive, start it:
+     sudo systemctl start ssh
+
+
